@@ -1,0 +1,28 @@
+form#new-post {
+  width: 100%;
+  max-width: 580px;
+  margin: 10px auto;
+  padding: 0 30px;
+
+  border: 2px solid rgb(121, 119, 119);
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+form#new-post input {
+  margin-top: 10px;
+  height: 25px;
+}
+
+form#new-post button {
+  margin: 10px auto;
+  width: 200px;
+  height: 30px;
+  background: #7159c1;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+}
